@@ -43,7 +43,6 @@ def save(self):
 
     def to_dict(self):
         """Returns a dictionary with all the keys/values of the instance."""
-        
         dictionary = {}
         for key, item in self.__dict__.items():
             if key in ['created_at', 'updated_at']:
