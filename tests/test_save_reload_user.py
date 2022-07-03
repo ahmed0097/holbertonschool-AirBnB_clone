@@ -1,4 +1,3 @@
-guillaume@ubuntu:~/AirBnB$ cat test_save_reload_user.py
 #!/usr/bin/python3
 from models import storage
 from models.base_model import BaseModel
