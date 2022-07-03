@@ -6,7 +6,6 @@ import cmd
 import json
 
 
-
 class HBNBCommand(cmd.Cmd):
     """Simple command processor"""
     prompt = '(hbnb)'
@@ -22,6 +21,7 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         """empty line"""
         pass
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
