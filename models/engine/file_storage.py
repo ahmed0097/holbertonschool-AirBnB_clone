@@ -6,6 +6,7 @@ import json
 BaseModel = base_model.BaseModel
 User = user.User
 
+
 class FileStorage:
     """define File storage class"""
     __file_path = "file.json"
